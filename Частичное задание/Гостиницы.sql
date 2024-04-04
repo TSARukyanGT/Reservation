@@ -51,11 +51,11 @@ CREATE TABLE Loyalty (
 )
 GO
 
-INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('Муром', 'ул. Московская, д.10', 5000)
+INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('ГЊГіГ°Г®Г¬', 'ГіГ«. ГЊГ®Г±ГЄГ®ГўГ±ГЄГ Гї, Г¤.10', 5000)
 
-INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('Дворец', 'ул. Ленинградская, д.6', 15000)
+INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('Г„ГўГ®Г°ГҐГ¶', 'ГіГ«. Г‹ГҐГ­ГЁГ­ГЈГ°Г Г¤Г±ГЄГ Гї, Г¤.6', 15000)
 
-INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('Эконом', 'ул. Советская, д.25', 2000)
+INSERT INTO Hotels(hotelName, hotelAdress, priceForDay) VALUES ('ГќГЄГ®Г­Г®Г¬', 'ГіГ«. Г‘Г®ГўГҐГІГ±ГЄГ Гї, Г¤.25', 2000)
 
 
 --DROP TRIGGER IF EXISTS LoyaltyCheck
@@ -102,8 +102,8 @@ SELECT * FROM Hotels
 SELECT * FROM Reservations
 SELECT * FROM Loyalty
 
-INSERT INTO Reservations (username, hotelUid, startDate, endDate) VALUES ('Геворг', '98FA348A-FAE5-4FA8-AC43-147457A3B898', '2024-04-05', '2024-04-11')
-INSERT INTO Reservations (username, hotelUid, startDate, endDate) VALUES ('Ольга', 'BF9C7F8E-87B8-4ECC-8F38-D9F4828AC9C8', '2024-04-10', '2024-04-14')
+INSERT INTO Reservations (username, hotelUid, startDate, endDate) VALUES ('ГѓГҐГўГ®Г°ГЈ', '98FA348A-FAE5-4FA8-AC43-147457A3B898', '2024-04-05', '2024-04-11')
+INSERT INTO Reservations (username, hotelUid, startDate, endDate) VALUES ('ГЋГ«ГјГЈГ ', 'BF9C7F8E-87B8-4ECC-8F38-D9F4828AC9C8', '2024-04-10', '2024-04-14')
 SELECT * FROM Hotels
 SELECT * FROM Reservations
 SELECT * FROM Loyalty
